@@ -28,8 +28,8 @@ function onGalleryElClick(e) {
 }
 
 var lightbox = new SimpleLightbox(".gallery a", {
-  captionsData: "alt",
+  captionType: "alt",
   captionDelay: 250,
 });
 
-console.log(galleryItems);
+// console.log(galleryItems);
