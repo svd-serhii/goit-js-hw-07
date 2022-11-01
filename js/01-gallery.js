@@ -46,7 +46,6 @@ function onGalleryElClick(e) {
       instance.close(() => {
         window.addEventListener("keydown", onEscPress);
       });
-      console.log(e.code);
     }
   }
 }
