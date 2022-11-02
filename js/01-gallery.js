@@ -44,7 +44,7 @@ function onGalleryElClick(e) {
   function onEscPress(e) {
     if (e.code === "Escape") {
       instance.close(() => {
-        window.addEventListener("keydown", onEscPress);
+        window.removeEventListener("keydown", onEscPress);
       });
     }
   }
